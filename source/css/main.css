@@ -1,0 +1,166 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
+html{
+  scroll-behavior: smooth;
+}
+.animate__animated.animate__heartBeat{
+  --animate-duration: 2s;
+  animation-iteration-count: infinite;
+}
+.background{
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/background.jpg);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.navbar{
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  justify-content: space-around;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+nav{
+  flex: 1;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: right;
+  padding-right: 2%;
+  padding-top: auto;
+}
+nav ul li{
+  list-style: none;
+  display: inline-block;
+  justify-content: center;
+  text-align: center;
+  width: 80px;
+  padding: 5px 5px;
+  text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
+}
+nav ul li a{
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+}
+nav ul li:hover{
+  border: 1px solid white;
+}
+#image{
+  height: 140px;
+  width: 140px;
+}
+#iLoveKolhapur{
+  font-weight: bolder;
+  color: white;
+  text-align: center;
+  font-size: 800%;
+  text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
+}
+#top10Palces{
+  font-weight: bold;
+  font-size: 50px;
+  color: white;
+  text-align: center;
+  padding-top: 80px;
+  text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.4);
+}
+section{
+  display: flex;
+  justify-content: center;
+  padding-top: 25px;
+  padding-bottom: 80px;
+}
+#explore{
+  color: white;
+  text-decoration: none;
+  font-size: 30px;
+  background-color: red;
+  text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.4);
+  border: 2px solid white;
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+  padding: 5px 40px 5px 40px;
+}
+#explore:hover{
+  background-color: transparent;
+  color: white;
+  border-color: white;
+}
+#top10PalcesSection{
+  background-color: rgba(0, 0, 0, 0.2);
+}
+p{
+  color: white;
+  text-align: center;
+  font-size: 200%;
+  padding-top: 10px;
+  text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.4);
+}
+.place{
+  width: 40%;
+  height: 40vh;
+  display: inline-block;
+  border-radius: 15px;
+  padding: 25px 20px;
+  cursor: pointer;
+  margin: 25px 35px;
+  transition: transform 0.5s;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.places1{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.1)), url(../images/Shri-Mahalaxmi-Temple-Kolhapur.jpg);
+}
+.places2{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.1)), url(../images/Bhavani-Mandap.jpg);
+}
+.places3{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.1)), url(../images/jyotiba-Temple-Kolhapur.jpg);
+}
+.places4{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.1)), url(../images/Siddhagiri-musseum.jpg);
+}
+.places5{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.1)), url(../images/Kopeshwar-Temple.jpg);
+}
+.places6{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.1)), url(../images/New-Palace-Museum.jpg);
+}
+.places7{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.1)), url(../images/Panhala-Kolhapur.jpg);
+}
+.places8{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.1)), url(../images/Vishalgad-Kolhapur.jpg);
+}
+.places9{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.1)), url(../images/Rankala-Lake.jpg);
+}
+.places10{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.1)), url(../images/Shalini-Palace-Kolhapur.jpg);
+}
+.place:hover{
+  transform: translateY(-30px);
+}
+h4{
+  color: white;
+  text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.4);
+  font-size: 40px;
+}
+/*RESOLUTION FOR MOBILE*/
+@media only screen and (max-width:1000px){
+  .place {
+    width: 88%;
+    height: 30vh;
+  }
+  nav ul li a{
+    font-size: 30px;
+  }
+}

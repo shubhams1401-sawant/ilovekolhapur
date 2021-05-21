@@ -1,0 +1,65 @@
+h5{
+  font-weight: bold;
+  font-size: 280%;
+  color: white;
+  padding-left: 15px;
+  text-decoration: underline;
+}
+.about{
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+#aboutHeadding{
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 280%;
+  color: white;
+  padding-left: 15px;
+  text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.4);
+}
+#details{
+  text-align: justify;
+  padding-left: 30px;
+  padding-right: 30px;
+  font-size: 30px;
+}
+#authorImage{
+  width: 20%;
+  height: 20%;
+  border-radius: 50%;
+  border: 2px solid white;
+  margin-left: 10%;
+  float: left;
+}
+#authorName{
+  padding-top: 60px;
+  margin-left: 35%;
+}
+div p{
+  font-weight: normal;
+  font-size: 25px;
+  text-align: justify;
+  margin-left: 32%;
+  margin-right: 30px;
+}
+.stayConnected hr{
+  margin: 0 auto;
+  width: 20%;
+  margin-top: 10px;
+}
+.stayConnected p{
+  margin: 0 0;
+  text-align: center;
+}
+.stayConnected img{
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+}
+.stayConnected span{
+  display: flex;
+  justify-content: center;
+  margin-top: 5px;
+}

@@ -1,0 +1,12 @@
+#kop-map{
+  display: block;
+  width: 100%;
+  height: 100vh;
+  margin: auto;
+}
+@media only screen and (max-width:1000px){
+  #kop-map{
+    width: 99%;
+    heigh: 100vh;
+  }
+}
